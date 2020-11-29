@@ -1,5 +1,5 @@
 body {
-	background-color: #ffffff;
+	background-color: #292728;
 }
 
 img {
@@ -13,8 +13,8 @@ h1 {
 	padding-left: 5px;
 	border: solid 1px #52904b;
 	background-color: #424c1e;
-	font-family: avantgarde;
+	font-family: serif;
 	color: #d1626c;
 	text-align: center;
-	border-radius: 30px;
+	border-radius: 10px;
 }
