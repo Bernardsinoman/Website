@@ -1,0 +1,18 @@
+body {
+	background-color: #87ceeb;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	border: solid 1px black;
+	border-radius: 2px;
+}
+
+h1 {
+	padding: 30px;
+	border: solid 1px #0000cd;
+	background-color: #7b68ee;
+	font-family: avantgarde;
+	color: white;
+}
