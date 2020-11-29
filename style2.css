@@ -11,10 +11,10 @@ img {
 
 h1 {
 	padding-left: 30px;
-	border: solid 1px #292728;
-	background-color: #424c1e;
+	border: solid 1px #424c1e;
+	background-color: #292728;
 	font-family: avantgarde;
-	color: white;
+	color: #d1626c;
 	text-align: center;
 	border-radius: 30px;
 }
