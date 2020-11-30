@@ -3,24 +3,15 @@ body {
 }
 
 img {
-	height: 100px;
-	width: 100px;
+	height: 50px;
+	width: 50px;
 	border: solid 1px black;
 	border-radius: 10px;
-	margin:5px;
-}
-
-.text {
-	padding: 5px 30px 5px 30px;
-	border: solid 1px #0000cd;
-	font-family: helvetica;
-	color: #d1626c;
-	text-align: center;
-	font-size: 100px;
+	margin:4px;
 }
 
 .cont {
-	height: 112px;
+	height: 59px;
 	background: linear-gradient( 45deg, skyblue, #94d1eb);
 	border: solid 4px #d5e8f0;
 	border-radius: 10px;
@@ -31,7 +22,7 @@ img {
 }
 
 .it {
-	height: 100px;
+	height: 50px;
 	border-radius: 1px;
 	margin:5px;
 	color: #d1626c;
