@@ -1,0 +1,10 @@
+.container {
+	border:solid 2px #806868;
+	display: flex;
+height: 100px;
+}
+
+.item {
+	border: 2px solid #457081;
+	margin: 100px;
+}
