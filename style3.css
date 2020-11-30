@@ -26,6 +26,7 @@ img {
 	border: solid 4px #d5e8f0;
 	border-radius: 10px;
 	display:flex;
+	margin:5px;
 }
 
 .it {
