@@ -14,7 +14,7 @@ img {
 .cont {
 	
 	width:100%;
-	background: linear-gradient( 45deg, skyblue, #94d1eb);
+	background: linear-gradient(skyblue, #94d1eb);
 	border: solid 4px #d5e8f0;
 	border-radius: 10px;
 	display:flex;
