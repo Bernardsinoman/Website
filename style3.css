@@ -1,0 +1,28 @@
+body {
+	background-color: #87ceeb;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	border: solid 1px black;
+	border-radius: 2px;
+}
+
+h1 {
+	border: solid 1px #0000cd;
+	font-family: avantgarde;
+	color: #d1626c;
+	text-align: center;
+}
+
+.container {
+	background-color: white
+	border: solid 1px black;
+	display:flex;
+	height: 110px;
+}
+
+.item {
+	margin: 10px;
+}
