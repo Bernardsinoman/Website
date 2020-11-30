@@ -12,6 +12,7 @@ img {
 
 .cont {
 	height: 59px;
+	width:100%;
 	background: linear-gradient( 45deg, skyblue, #94d1eb);
 	border: solid 4px #d5e8f0;
 	border-radius: 10px;
@@ -19,6 +20,7 @@ img {
 	flex-direction:row;
 	margin:5px;
 	display:inline-block
+	justify-content: space-around;
 }
 
 .it {
