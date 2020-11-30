@@ -19,7 +19,7 @@ img {
 	display:flex;
 	flex-direction:row;
 	margin:5px;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .it {
