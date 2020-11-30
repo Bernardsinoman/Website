@@ -19,12 +19,11 @@ img {
 }
 
 .container {
-	height: 110px;
+	height: 114px;
 	width: 100%;
-	background-color: white
-	border: solid 1px black;
+	background: linear-gradient(blue, white);
+	border: solid 4px black;
 	display:flex;
-	z-index:1;
 }
 
 .item {
