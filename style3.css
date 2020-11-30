@@ -36,6 +36,7 @@ img {
 	position: relative;
 	border: solid 1px black;
 	flex-grow: 2;
+	text-align: center;
 }
 
 border: solid 1px black;
