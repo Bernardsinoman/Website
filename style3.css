@@ -6,7 +6,7 @@ img {
 	height: 50px;
 	width: 50px;
 	border: solid 1px black;
-	border-radius: 10px;
+	
 	margin:4px;
 }
 
@@ -34,3 +34,4 @@ img {
 }
 
 border: solid 1px black;
+border-radius: 10px;
