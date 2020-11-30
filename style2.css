@@ -3,27 +3,28 @@ body {
 }
 
 div {
-	width: 100%;
-	height: 5%;
-	background: linear-gradient(45deg #5ea43a #52904b;
+	width: 100%
 }
 
 img {
-	width: 10%;
-	height: same-as-width;
+	height: 100px;
+	width: 100px;
 	border: solid 1px black;
 	border-radius: 20px;
-	float: left;
 	
 }
 
-.title {
+h1 {
+	padding: 0 5px 0 5px;
 	border: solid 1px #52904b;
+	background-color: #ffffff;
 	font-family: serif;
 	color: #d1626c;
 	text-align: center;
 	border-radius: 5px;
 	font-size: 100px;
-	display: inline-block;
 }
 
+h1, img {
+	display: inline-block;
+}
