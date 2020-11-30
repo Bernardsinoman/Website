@@ -39,5 +39,6 @@ img {
 	font-size:70px;
 	font-family: helvetica;
 	display:inline;
+	position: relative;
 	bottom: 50%;
 }
