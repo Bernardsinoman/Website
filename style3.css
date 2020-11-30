@@ -8,7 +8,7 @@ img {
 	border: solid 1px black;
 	border-radius: 3px;
 	margin:4px;
-	flex-basis: 5%;
+	flex: 1 2 5%
 }
 
 .cont {
@@ -35,7 +35,7 @@ img {
 	display:inline;
 	position: relative;
 	border: solid 1px black;
-	flex-grow: 2;
+	flex:2 1 auto;
 	text-align: center;
 }
 
