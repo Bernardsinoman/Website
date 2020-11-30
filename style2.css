@@ -8,9 +8,10 @@ div {
 
 img {
 	height: 100px;
-	width: 100px;
+	width: 20%;
 	border: solid 1px black;
 	border-radius: 20px;
+	float: left;
 	
 }
 
@@ -25,6 +26,3 @@ h1 {
 	font-size: 100px;
 }
 
-h1, img {
-	display: inline-block;
-}
