@@ -34,4 +34,6 @@ img {
 	border: solid 1px black;
 	border-radius: 2px;
 	margin:5px;
+	color: #d1626c;
+	font-size:100px;
 }
