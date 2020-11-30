@@ -7,8 +7,8 @@ div {
 }
 
 img {
-	height: 100px;
-	width: 20%;
+	height: width;
+	width: 10%;
 	border: solid 1px black;
 	border-radius: 20px;
 	float: left;
