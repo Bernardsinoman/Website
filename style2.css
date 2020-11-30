@@ -2,15 +2,20 @@ body {
 	background-color: #292728;
 }
 
+div {
+	width: 100%
+}
+
 img {
 	height: 100px;
 	width: 100px;
 	border: solid 1px black;
 	border-radius: 20px;
+	
 }
 
 h1 {
-	padding: 5px 5px 5px 5px;
+	padding: 0 5px 0 5px;
 	border: solid 1px #52904b;
 	background-color: #ffffff;
 	font-family: serif;
@@ -21,5 +26,5 @@ h1 {
 }
 
 h1, img {
-	display: inline;
+	display: inline-block;
 }
