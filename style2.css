@@ -17,7 +17,7 @@ img {
 h1 {
 	padding: 0 5px 0 5px;
 	border: solid 1px #52904b;
-	background-color: #ffffff;
+	background: linear-gradient(45deg #ffffff green);
 	font-family: serif;
 	color: #d1626c;
 	text-align: center;
