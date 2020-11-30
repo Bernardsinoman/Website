@@ -34,6 +34,8 @@ img {
 	font-family: helvetica;
 	display:inline;
 	position: relative;
+	border: solid 1px black;
+	flex-grow: 2;
 }
 
 border: solid 1px black;
