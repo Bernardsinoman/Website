@@ -22,11 +22,11 @@ img {
 }
 
 .it {
-	height: 40px;
+	height: 50px;
 	border-radius: 1px;
 	margin:5px;
 	color: #d1626c;
-	font-size:70px;
+	font-size:40px;
 	font-family: helvetica;
 	display:inline;
 	position: relative;
