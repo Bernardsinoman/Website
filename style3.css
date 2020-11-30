@@ -23,7 +23,7 @@ img {
 	height: 112px;
 	width:100%;
 	background: linear-gradient( 45deg, skyblue, #94d1eb);
-	border: solid 4px #5fb1d4;
+	border: solid 4px #d5e8f0;
 	border-radius: 10px;
 	display:flex;
 }
@@ -35,4 +35,5 @@ img {
 	margin:5px;
 	color: #d1626c;
 	font-size:100px;
+	font-family: helvetica;
 }
