@@ -10,7 +10,7 @@ div {
 
 img {
 	width: 10%;
-	height: same-as-width
+	height: same-as-width;
 	border: solid 1px black;
 	border-radius: 20px;
 	float: left;
@@ -18,14 +18,12 @@ img {
 }
 
 .title {
-	padding: 0 5px 0 5px;
 	border: solid 1px #52904b;
-	background-color: #ffffff;
 	font-family: serif;
 	color: #d1626c;
 	text-align: center;
 	border-radius: 5px;
 	font-size: 100px;
-	display: inline;
+	display: inline-block;
 }
 
