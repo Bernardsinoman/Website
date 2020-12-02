@@ -44,6 +44,8 @@ img {
 
 .top {
 	height:50px;
+	border: none;
+	border-radius: 0;
 	width:100%;
 	display:flex;
 	justify-content:end;
