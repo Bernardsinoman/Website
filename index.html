@@ -91,7 +91,7 @@
 window.onload  = swap;
 
 var theBanner = 0;
-var bannerImages = new Array("/banner1","/banner2","/banner3","/banner4","/banner5","/banner6");
+var bannerImages = new Array("/banner1.png","/banner2.png","/banner3.png","/banner4.png","/banner5.png","/banner6.png");
 
 function swap() {
 	theBanner++;
@@ -100,7 +100,7 @@ function swap() {
 	}
 	document.getElementById("banner").src = bannerImages[theBanner];
 	
-	setTimeout(swap, 3 * 1000);
+	setTimeout(swap, 10 * 1000);
 }
 
 	
