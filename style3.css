@@ -64,12 +64,14 @@ body {
 }
 
 .divsale{
+	height:60px;
 	background-color:#735F22;
 	border:0;
 	porder-radius:0;
 	width:100%
 	display:flex;
 	justify-content:center;
+	align-items:center;
 }
 	
 border: solid 1px black;
