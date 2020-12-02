@@ -15,13 +15,15 @@
 </div>
 <div id="division">
 	<p id="morty" class="it">Salamander</p>
-	<h3> taco bell</h3>
+	<h3 id="mest"> taco bell</h3>
 </div>
 <script>
 	var divElement= document.getElementById("division");
 	var heading = document.createElement("h3");
+	divElement.appendChild(heading);
 	
-	divElement.removeChild(heading);
+	var mesty = document.getElementByID("mest");
+	divElement.removeChild(mesty);
 	
 	
 	var bobby= document.getElementById("morty")
