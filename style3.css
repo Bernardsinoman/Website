@@ -58,9 +58,10 @@ body {
 	color: white;
 	text-align: center;
 	padding: 0;
-	display:block;
+	display:inline-block;
 	position:relative;
 	align-self:center;
+	
 
 }
 
@@ -115,12 +116,13 @@ a{
 	width:70%;
 	flex-basis:auto;
 	border: solid 5px #4C591E;
+	white-space:nowrap;
 }
 
 .blank{
 	width:100%;
 	height:60px;
-	white-space:nowrap;
+	
 	
 }
 	
