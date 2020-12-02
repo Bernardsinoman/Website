@@ -75,6 +75,12 @@ body {
 	justify-content:center;
 	align-items:center;
 	align-content:center;
+}
+	
+a{
+	display:flexbox;
+	align-content:center;
+	justify-content:center;
 	
 }
 
