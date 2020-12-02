@@ -21,8 +21,7 @@
 		<br>
 		<br>
 	
-	<h4 onclick="jump()"> what is your name?</h4>
-	<h2 type="yellow"
+	<h4 onclick="jump()" type="yellow"> what is your name?</h4>
 	<input type="text" placeholder="Name" id="nameInput">
 	<button onclick="register()">enter</button>
 	<p id="hello"></p>
@@ -56,8 +55,8 @@
 		}
 		
 	function jump() {
-		var skip = document.getElementById("yellow")
-		divElement.removeChild(skip);
+		document.getElementById("yellow").innerHTML = "How is the Weather?";
+		
 	}
 
 
