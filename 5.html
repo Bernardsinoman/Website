@@ -21,7 +21,8 @@
 		<br>
 		<br>
 	
-	<h4> what is your name?</h4>
+	<h4 onclick="jump()"> what is your name?</h4>
+	<h2 type="yellow"
 	<input type="text" placeholder="Name" id="nameInput">
 	<button onclick="register()">enter</button>
 	<p id="hello"></p>
@@ -53,6 +54,10 @@
 		if (name !== "") {
 		document.getElementById("hello").innerHTML = "hello " + name;
 		}
+		
+	function jump() {
+		var skip = document.getElementById("yellow")
+		divElement.removeChild(skip);
 	}
 
 
