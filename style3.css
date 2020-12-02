@@ -110,8 +110,9 @@ a{
 }
 
 .bannerimg{
-	width:100%;
+	width:70%;
 	flex-basis:auto;
+	border: solid 5px #4C591E;
 }
 
 .blank{
