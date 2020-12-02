@@ -57,9 +57,8 @@ body {
 	font-family: NSimSun;
 	color: white;
 	text-align: center;
-	padding: 10px 0 10px 0;
-	width:100%
-	display:inline;
+	padding: 0;
+	display:block;
 	position:relative;
 
 }
@@ -71,8 +70,10 @@ body {
 	border-radius:0;
 	width:100%
 	display:flex;
+	flex-Direction:row;
 	justify-content:center;
 	align-items:center;
+	
 }
 
 .navigation{
@@ -87,6 +88,7 @@ body {
 	padding:0;
 	color:#4C591E;
 	font-family:arial;
+	
 	
 }
 	
