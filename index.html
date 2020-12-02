@@ -86,6 +86,23 @@
 	}
 
 
+										   
+										   
+window.onload  = swap;
+
+var theBanner = 0;
+var bannerImages = new Array("/banner1","/banner2","/banner3","/banner4","/banner5","/banner6");
+
+function swap() {
+	theBanner++;
+	if (theBanner == bannerImages.length){
+		theBanner = 0;
+	}
+	document.getElementByID("banner").src = bannerImages[theBanner];
+	
+	setTimeout(swap, 3 * 1000);
+}
+
 	
 </script>
 </body>
