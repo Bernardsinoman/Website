@@ -60,6 +60,7 @@ body {
 	padding: 0;
 	display:block;
 	position:relative;
+	align-self:center;
 
 }
 
@@ -73,6 +74,7 @@ body {
 	flex-Direction:row;
 	justify-content:center;
 	align-items:center;
+	align-content:center;
 	
 }
 
@@ -81,6 +83,8 @@ body {
 	width:100%;
 	display:flex;
 	justify-content: space-around;
+	align-content:center;
+	align-items:center;
 }
 .navbutton{
 	border:none;
@@ -91,6 +95,20 @@ body {
 	
 	
 }
+
+.bannerdiv{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	
+}
+
+.bannerimg{
+	width:100%;
+	flex-basis:auto;
+	filter:grayscale(60%);
+}
+	
 	
 border: solid 1px black;
 border-radius: 10px;
