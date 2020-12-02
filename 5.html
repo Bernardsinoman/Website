@@ -18,6 +18,10 @@
 	<h3 id="mest"> taco bell</h3>
 	<button onclick="whea()">wea?</button>
 	<h2 id="yahoo"></h2>
+	<br>
+	<br>
+	<input type="text" placeholder="Name" id="nameInput">
+	<buttton onclick="register()">enter</buton>
 </div>
 <script>
 	var divElement= document.getElementById("division");
@@ -28,6 +32,7 @@
 	
 		var bobby= document.getElementById("morty")
 		bobby.innerHTML="zalad22";
+		<p id="hello"></p>
 	
 	var smack ="lego my eggo ";
 	console.log(smack + mesty);
@@ -38,6 +43,10 @@
 		document.getElementById("yahoo").innerHTML = "Nice Job Dude";
 	}
 	
+	Function reister() {
+		var name = document.getElementById("nameInput").value;
+		document.getElementById("hello").innerHTML = "hello " + name;
+	}
 
 
 	
