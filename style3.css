@@ -56,22 +56,21 @@ body {
 .sale{
 	font-family: NSimSun;
 	color: white;
-	
 	text-align: center;
 	padding: 10px 0 10px 0;
 	width:100%
-	display:block;
+	display:inline;
 
 }
 
 .divsale{
+	padding:20px;
 	background-color:#735F22;
 	border:0;
 	porder-radius:0;
-	height: 60px;
 	width:100%
 	display:flex;
-	justify-content:center;
+	align-items:center;
 }
 	
 border: solid 1px black;
