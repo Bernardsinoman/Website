@@ -26,7 +26,7 @@ body {
 	justify-content: space-between;
 	align-items:center;
 	flex-wrap: rap;
-	height:400px
+	height:150px
 }
 
 .it {
@@ -51,6 +51,14 @@ body {
 	width:100%;
 	display:flex;
 	justify-content:end;
+}
+
+.sale{
+	font-family: NSimSun;
+	background-color:#735F22;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	width:100%
 }
 border: solid 1px black;
 border-radius: 10px;
