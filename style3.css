@@ -112,7 +112,6 @@ a{
 .bannerimg{
 	width:100%;
 	flex-basis:auto;
-	filter:grayscale(60%);
 }
 	
 	
