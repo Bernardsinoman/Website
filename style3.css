@@ -16,7 +16,7 @@ body {
 .cont {
 	
 	width:100%;
-	linear-gradient(F2F2F2, #66ADD9);
+	background: linear-gradient(#F2F2F2, #66ADD9);
 	border: 4px #d5e8f0;
 	border-radius: 0;
 	display:flex;
