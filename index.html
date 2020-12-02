@@ -98,7 +98,7 @@ function swap() {
 	if (theBanner == bannerImages.length){
 		theBanner = 0;
 	}
-	document.getElementByID("banner").src = bannerImages[theBanner];
+	document.getElementById("banner").src = bannerImages[theBanner];
 	
 	setTimeout(swap, 3 * 1000);
 }
