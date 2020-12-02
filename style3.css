@@ -45,7 +45,7 @@ body {
 .top {
 	height:50px;
 	border: none;
-	background: linear-gradient(#66ADD9, #F2F2F2 );
+	color: #66ADD9;
 	border-radius: 0;
 	width:100%;
 	display:flex;
