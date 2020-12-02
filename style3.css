@@ -55,11 +55,12 @@ body {
 
 .sale{
 	font-family: NSimSun;
+	color: white;
 	background-color:#735F22;
 	text-align: center;
 	padding: 10px 0 10px 0;
 	width:100%
-	color: white;
+
 }
 border: solid 1px black;
 border-radius: 10px;
