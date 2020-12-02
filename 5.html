@@ -48,7 +48,9 @@
 	
 	function register() {
 		var name = document.getElementById("nameInput").value;
+		if (name !== "") {
 		document.getElementById("hello").innerHTML = "hello " + name;
+		}
 	}
 
 
