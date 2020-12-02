@@ -26,7 +26,7 @@
 		<br>
 		<br>
 	
-	<h4> what is your name?</h4>
+	<h4 onclick="jump()" type="yellow"> what is your name?</h4>
 	<input type="text" placeholder="Name" id="nameInput">
 	<button onclick="register()">enter</button>
 	<p id="hello"></p>
@@ -58,7 +58,12 @@
 		if (name !== "") {
 		document.getElementById("hello").innerHTML = "hello " + name;
 		}
-	}		
+	}
+	function jump() {
+		document.getElementById("yellow").innerHTML = "How is the Weather?";
+		
+	}
+
 
 	
 </script>
