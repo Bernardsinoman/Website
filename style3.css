@@ -46,7 +46,7 @@ body {
 .top {
 	height:50px;
 	border: none;
-	color: #66ADD9;
+	background-color: #66ADD9;
 	border-radius: 0;
 	width:100%;
 	display:flex;
