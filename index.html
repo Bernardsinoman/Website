@@ -34,7 +34,7 @@
 		  
 <div class="bannerdiv">
 		<img src="/banner1.png" class="bannerimg" id="banner">
-		<h2 class="bannertext" id="bannerText">Happy Birthday Sebastian the Chicken!!</h2>
+		<h2 class="bannertext" id="bannerText">Happy Birthday Sebastian the Chicken!</h2>
 	</div>	
 										      
 <div class="blank"></div>
@@ -94,13 +94,15 @@ window.onload  = swap;
 
 var theBanner = 0;
 var bannerImages = new Array("/banner1.png","/banner2.png","/banner3.png","/banner4.png","/banner5.png","/banner6.png");
-
+var bannerWords = new Array("Happy Birthday Sebastian the Chicken!","Join us on Sunday for<br> Stork Sunday","Annual Pumpkin Harvests!","Yeah that's right we got llamas too","Join us Fridays for <br> Fake Bee Friday","GATOR WEDNESDAY BABY!!!11!!!1!");
+														      
 function swap() {
 	theBanner++;
 	if (theBanner == bannerImages.length){
 		theBanner = 0;
 	}
 	document.getElementById("banner").src = bannerImages[theBanner];
+	document.getElementById("bannerText").innerHTML = bannerWords[theBanner];
 	
 	setTimeout(swap, 10 * 1000);
 }
