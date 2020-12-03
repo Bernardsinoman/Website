@@ -58,7 +58,6 @@ body {
 	color: white;
 	text-align: center;
 	padding: 0;
-	display:inline-block;
 	position:relative;
 	margin:auto;
 	
@@ -78,12 +77,6 @@ body {
 	align-content:center;
 }
 	
-a{
-	display:flexbox;
-	align-content:center;
-	justify-content:center;
-	
-}
 
 .navigation{
 	height:50px;
@@ -113,9 +106,10 @@ a{
 }
 
 .bannerimg{
-	width:70%;
+	width:80%;
 	flex-basis:auto;
 	border: solid 5px #4C591E;
+	border-radius:5px;
 }
 
 .blank{
