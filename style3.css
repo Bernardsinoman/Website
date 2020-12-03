@@ -123,6 +123,8 @@ body {
 .bannertext{
 	position:absolute;
 	text-align:center;
+	top:50%;
+	font-size:45px;
 	font-family:Arial Black;
 	color: white;
 	
