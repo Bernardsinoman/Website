@@ -88,11 +88,14 @@ body {
 	align-items:center;
 }
 .navbutton{
-	border:solid 1px black;
+	border: none 1px black;
 	background:#F2F2F2;
 	padding:12px 7px 12px 7px;
 	color:#4C591E;
 	font-family:arial;
+	&: active {
+   	 border: none;
+	}
 	
 	
 }
@@ -101,7 +104,7 @@ body {
 	/* background-color: */
 	text-decoration: underline overline;
 	text-decoration-color: #99A63C;
-	text-decoration-thickness:3px;
+	text-decoration-thickness:5px;
 	cursor: grab;
 		
 }
