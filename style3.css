@@ -55,11 +55,11 @@ body {
 
 .divsale{
 	height:60px;
+	display:flex;
 	background-color:#735F22;
 	border:0;
 	border-radius:0;
 	width:100%
-	display:flex;
 	flex-Direction:row;
 	justify-content:center;
 	align-items:center;
