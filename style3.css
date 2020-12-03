@@ -90,7 +90,7 @@ body {
 .navbutton{
 	border:solid 1px black;
 	background:#F2F2F2;
-	padding:10px 5px 10px 5px;
+	padding:12px 7px 12px 7px;
 	color:#4C591E;
 	font-family:arial;
 	
@@ -101,6 +101,8 @@ body {
 	/* background-color: */
 	text-decoration: underline overline;
 	text-decoration-color: #99A63C;
+	text-decoration-thickness:3px;
+	cursor: grab;
 		
 }
 
