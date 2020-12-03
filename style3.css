@@ -85,12 +85,12 @@ body {
 	display:flex;
 	justify-content: space-around;
 	align-content:center;
-	align-items:stretch;
+	align-items:center;
 }
 .navbutton{
 	border:none;
 	background:#F2F2F2;
-	padding:0;
+	padding:35/2px;
 	color:#4C591E;
 	font-family:arial;
 	
