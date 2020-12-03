@@ -97,7 +97,11 @@ body {
 .navbutton:active {
    	 outline:none;
 	border: none;
-	}
+}
+.navbutton:focus {
+   	 outline:none;
+	border: none;
+}
 	
 	
 
