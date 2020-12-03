@@ -53,17 +53,6 @@ body {
 	justify-content:end;
 }
 
-.sale{
-	font-family: NSimSun;
-	color: white;
-	text-align: center;
-	padding: 0;
-	position:relative;
-	margin:auto;
-	
-
-}
-
 .divsale{
 	height:60px;
 	background-color:#735F22;
@@ -77,6 +66,17 @@ body {
 	align-content:center;
 }
 	
+
+.sale{
+	font-family: NSimSun;
+	color: white;
+	text-align: center;
+	padding: 0;
+	position:relative;
+	margin:auto;
+	
+
+}
 
 .navigation{
 	height:50px;
