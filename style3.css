@@ -90,7 +90,7 @@ body {
 .navbutton{
 	border:solid 1px black;
 	background:#F2F2F2;
-	padding:0;
+	padding:10px 5px 10px 5px;
 	color:#4C591E;
 	font-family:arial;
 	
@@ -98,7 +98,9 @@ body {
 }
 
 .navbutton:hover{
-	background-color:#99A63C
+	/* background-color: */
+	text-decoration: underline overline;
+	text-decoration-color: #99A63C;
 		
 }
 
