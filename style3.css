@@ -123,6 +123,7 @@ body {
 	text-align:center;
 	font-family:Monaco;
 	color: white;
+	margin:5px;
 	
 }
 
@@ -133,7 +134,7 @@ body {
 	justify-content:center;
 	align-items:start;
 	background-color:#99A63C;
-	border: 0;
+	border: 5px;
 	border-radius:0;
 	
 }
