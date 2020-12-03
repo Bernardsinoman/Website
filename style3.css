@@ -96,6 +96,7 @@ body {
 }
 .navbutton:active {
    	 outline:none;
+	border: none;
 	}
 	
 	
