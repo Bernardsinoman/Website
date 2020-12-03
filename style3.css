@@ -88,13 +88,18 @@ body {
 	align-items:center;
 }
 .navbutton{
-	border:none;
+	border:solid 1px black;
 	background:#F2F2F2;
-	padding:35/2px;
+	padding:0;
 	color:#4C591E;
 	font-family:arial;
 	
 	
+}
+
+.navbutton:hover{
+	background-color:#99A63C
+		
 }
 
 .bannerdiv{
