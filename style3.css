@@ -135,6 +135,8 @@ body {
 	justify-content:center;
 	align-items:start;
 	background-color:#99A63C;
+	border: 0px;
+	border-radius:0px;
 	
 border: solid 1px black;
 border-radius: 10px;
