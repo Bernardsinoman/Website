@@ -84,7 +84,7 @@ body {
 	width:100%;
 	display:flex;
 	justify-content: space-around;
-	align-content:center;
+	align-content:stretch;
 	align-items:center;
 }
 .navbutton{
