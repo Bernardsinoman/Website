@@ -134,7 +134,7 @@ body {
 	justify-content:center;
 	align-items:start;
 	background-color:#99A63C;
-	border: 5px;
-	border-radius:0;
+	border:solid 5px #99A63C;
+	border-radius:0 0 5px 5px;
 	
 }
