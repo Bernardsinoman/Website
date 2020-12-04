@@ -82,6 +82,7 @@
 	function cartSum() {
 		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
 		document.getElementById("cartNumber").innerHTML = cartTotal;
+		showNumber.style.display = "block";
 	}
 	
 	function peanutSum(){
