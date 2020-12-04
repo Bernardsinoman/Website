@@ -1,1 +1,11 @@
-
+.bigdiv{
+  wisth:100%
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
+.map{
+  border:solid 2px #99A63C;
+  border radius:10px;
+}
