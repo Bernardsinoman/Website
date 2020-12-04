@@ -24,10 +24,12 @@
 	<a href="/shop.html" class="sale">Limited time: Buy 4 peanuts get 3 cucumbers 50% off!</a>
  </div>
 <div>					 					 				 
- <h1 class="title">Store</h1>
-<img src="cartlogo.png" class="cartpic">
-<p class="cartcount" id="cartNumber"></p>
-</div>
+ 	<h1 class="title">Store</h1>
+	<div class="cart">  
+		<img src="cartlogo.png" class="cartpic">
+		<p class="cartcount" id="cartNumber"></p>
+	</div>
+</div>						    
 <div class="bigdiv">
 	<div class="shopitem">
 		<img class="shopimage" src="BFF.jpg">
@@ -56,6 +58,7 @@
 <script>					     
 	var cartItems =new Array(0);
 	var peanutItems= new Array(0);
+	var showNumber = getElementById("cartNumber");
 					    
 					    
 	function peanuts(){
