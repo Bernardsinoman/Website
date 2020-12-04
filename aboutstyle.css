@@ -17,6 +17,6 @@
   display:inline;
   font-size:24px;
   word-wrap: normal;
-  height:100%;
+  white-space:pre-line;
 
 }
