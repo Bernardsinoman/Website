@@ -49,10 +49,6 @@ p{
 .cartpic{
   width:50px;
   heihgt:50px;
-  position: -webkit-sticky;
-  position:sticky;
-  float:right;
-  margin:35px 35px 35px 0;
 }
 .cartcount{
     position: -webkit-sticky;
@@ -62,10 +58,17 @@ p{
     margin:35px 0 0 0;
     font-family:arial;
     color:white;
-    left:95%;
-    bottom:60%;
     padding:10px;
     border-radius:40px;
     background-color:#99A63C;
   
 }
+
+.cart{
+  width:50px;
+  heihgt:50px;
+  position: -webkit-sticky;
+  position:sticky;
+  float:right;
+  margin:35px 35px 35px 0;
+  display:flex;
