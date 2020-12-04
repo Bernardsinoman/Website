@@ -136,4 +136,12 @@ p{
  	border-radius:10px;
   	border:solid 2px #99A63C;
 }
-	
+.checkoutbackground{
+	width:100%;
+	height:100%;
+	background:gray;
+	opacity: 0.5;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
