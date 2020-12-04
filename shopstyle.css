@@ -47,8 +47,8 @@ p{
 .cartpic{
   width:50px;
   heihgt:50px;
+  position: -webkit-sticky;
   position:sticky;
   float:right;
-  left:80%;
   margin:35px;
 }
