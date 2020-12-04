@@ -17,6 +17,7 @@
   width:100%;
   text-align: justify;
   overflow: auto;
+  word-wrap: break-word;
 
 }
 .box{
