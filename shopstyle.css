@@ -125,7 +125,7 @@
 	height:100%;
 	position:fixed;
 	background:gray;
-	opacity: 0.5;
+	opacity: 1;
 	display:flex;
 	justify-content:center;
 	align-items:center;
