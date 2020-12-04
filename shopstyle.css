@@ -120,12 +120,21 @@
 .checkoutbutton:hover{ 
 	cursor: grab;
 }
-
+.checkoutbackground{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:gray;
+	opacity: 0.5;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 .checkoutscreen{
 	opacity: 1 !important;
 	height:50%;
 	width:70%;
-	 padding: 15px;
+	padding: 15px;
   	display:flex;
  	flex-direction:column;
   	justify-content:space-around;
@@ -135,16 +144,7 @@
   	border:solid 2px #99A63C;
 	
 }
-.checkoutbackground{
-	width:100%;
-	height:100%;
-	position:absolute;
-	background:gray;
-	opacity: 0.5;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
+
 .pc{
 	display:inline-block;
 	text-align:center;
