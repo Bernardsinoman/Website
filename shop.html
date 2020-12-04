@@ -59,15 +59,13 @@
 		if (peanutAmount.value > 0){
 			console.log(peanutAmount.value);
 			cartItems.push(peanutAmount.value);
-			console.log(cartItems);
-			console.log(cartTotal);
 			sum();
 		}
 	}
 	function sum() {		    
 		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
 		console.log(cartTotal);
-		document.getElementById(cartNumber).innerHTML = cartTotal;
+		document.getElementById("cartNumber").innerHTML = cartTotal;
 }
 	
 </script>								    
