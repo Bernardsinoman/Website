@@ -13,6 +13,7 @@
 }
 .shopitem{
   display:flex;
+  flex-direction:column;
   justify-content:center;
   align-items:center;
 }
@@ -29,4 +30,7 @@
   color:#4C591E;
   background-color:#66ADD9;
   border: solid 2px #608da8;
+  border-radius: 3px;
 }
+
+  
