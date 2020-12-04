@@ -59,8 +59,8 @@
 		if (peanutAmount.value > 0){
 			console.log(peanutAmount.value);
 			cartItems.push(peanutAmount.value);
-			sum();
 			var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+			sum();
 		}
 	}
 	function sum() {		    
