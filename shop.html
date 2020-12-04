@@ -60,12 +60,13 @@
 			var pn = peanutAmount.value
 			cartItems.push(pn);
 			console.log(pn);
-			
+			sum();
 		}
-		sum();
+		
 	}
-	function sum() {		    
-		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+	function sum() {
+		console.log(cartItems)
+		var cartTotal = cartItems.reduce((a, b) => a + b);
 		console.log(cartTotal);
 		document.getElementById("cartNumber").innerHTML = cartTotal;
 	}
