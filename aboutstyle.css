@@ -1,7 +1,7 @@
 .box{
   margin: 20px 60px 20px 60px;
   width:100%;
-  overflow: hidden; text-overflow: clip
+  overflow: hidden; text-overflow: clip;
 }
 .coverimage{
     float:left;
