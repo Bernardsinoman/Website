@@ -6,7 +6,14 @@
 <link rel="stylesheet" href="defaultstyle.css">
 </head>
 <body>
- 
+</div>
+<div class="checkoutbackground" id="checkout">
+	<div class="checkoutscreen">
+		<h1>Uh oh... There was a problem<h1>
+		<p>It turns out thatt we don't actually sell any items.<br>Check back later for some new stuff!</p><br>
+		<button class="checkoutbutton" onclick="checkoutclose()">okay</button>
+	</div>
+</div> 
 <div class="pagehead">
 	
 	<a href="https://bernardsinomanfamilyfarm.com/"><img src="/logo.png" class="logo"></a>
@@ -37,7 +44,7 @@
 		<h4 class="shoptext">Peanuts</h4>
 		<p class=price>$1.00</p>
 		<div>
-			<p> qty.</p>
+			<p class="ps"> qty.</p>
 			<select id="peanutAmount">
 				<option value ="0">0</option>
 				<option value ="1">1</option>
@@ -59,18 +66,8 @@
 <div class="checkoutdiv">
 	<button class="checkoutbutton" onclick="checkoutopen()">Check Out</button>
 
-</div>
-<div class="checkoutbackground" id="checkout">
-	<div class="checkoutscreen">
-		<h1>Uh oh... There was a problem<h1>
-		<p>It turns out thatt we don't actually sell any items.<br>Check back later for some new stuff!</p><br>
-		<button class="checkoutbutton" onclick="checkoutclose()">okay</button>
-	</div>
-</div>
-				      
-				      
-				      
-				      
+				      				      
+				    				      
 <script>					     
 	var cartItems =new Array(0);
 	var peanutItems= new Array(0);
