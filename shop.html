@@ -31,7 +31,7 @@
 		<h4 class="shoptext">Peanuts</h4>
 		<div>
 			<p> qty.</p>
-			<select>
+			<select id="peanutAmount">
 				<option value ="0">?</option>
 				<option value ="1">1</option>
 				<option value ="2">2</option>
@@ -44,9 +44,20 @@
 				<option value ="9">9</option>
 				<option value ="10">10</option>
 			</select>
-			<button class="addtocart">Add to Cart</button>
+			<button class="addtocart" onclick"peanuts()">Add to Cart</button>
+				
 		 </div>				 
 	</div>
 </div>
 </body>
+<script>
+	Var cartItems =new Array();
+	function peanuts(){
+		if (peanutAmount!==0){
+			consile.log(peanutAmount);
+		}
+	}
+	
+		
+	
 </html>
