@@ -5,7 +5,7 @@
     float:left;
     height:300px;
     width:200px;
-    margin: 0 0 0 20px;
+    margin: 0 20px; 0 0;
     border: solid 2px #99A63C;
     border-radius:10px;
 }
@@ -15,4 +15,7 @@
   display:inline;
   font-size:24px;
   margin: 10px 20px 0 15px;
+}
+.box{
+  padding: 20px 20px 20px 20px;
 }
