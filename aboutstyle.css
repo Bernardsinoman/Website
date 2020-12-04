@@ -15,7 +15,7 @@
 
 }
 .box{
-  display:flex;
+  word-break: break-all;
   margin: 20px 60px 20px 60px;
   width:100%;
 }
