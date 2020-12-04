@@ -51,7 +51,6 @@ p{
   heihgt:50px;
 }
 .cartcount{
-    position: -webkit-sticky;
     position:absolute;
     float:right;
     font-size:12px;
@@ -65,11 +64,10 @@ p{
 }
 
 .cart{
-  width:50px;
-  heihgt:50px;
   position: -webkit-sticky;
   position:sticky;
   float:right;
   margin:35px 35px 35px 0;
   display:flex;
+  padding: 15px 0 0 15px;
 }
