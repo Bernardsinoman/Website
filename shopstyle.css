@@ -148,15 +148,6 @@
 	z-index:11;
 	
 }
-.closebutton{
-  color:#4C591E;
-  background-color:#99A63C;
-  border: solid 2px #66ADD9;
-  border-radius: 3px;
-  font-size:20px;
-	align-content:center;
-	align-self:center;
-}
 .pc{
 	display:inline-block;
 	text-align:center;
