@@ -154,6 +154,8 @@
   border: solid 2px #66ADD9;
   border-radius: 3px;
   font-size:20px;
+	align-content:center;
+	align-self:center;
 }
 .pc{
 	display:inline-block;
