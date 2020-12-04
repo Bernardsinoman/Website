@@ -129,7 +129,7 @@ p{
 	 padding: 15px;
   	display:flex;
  	flex-direction:column;
-  	justify-content:center;
+  	justify-content:space-around;
  	align-items:center;
   	background-color:white;
  	border-radius:10px;
