@@ -1,3 +1,7 @@
+.box{
+  margin: 20px 60px 20px 60px;
+  width:100%;
+}
 .coverimage{
     float:left;
     height:300px;
@@ -13,8 +17,4 @@
   font-size:24px;
   width:100%;
 
-}
-.box{
-  margin: 20px 60px 20px 60px;
-  width:100%;
 }
