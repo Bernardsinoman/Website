@@ -1,7 +1,7 @@
 .box{
   margin: 20px 60px 20px 60px;
   width:100%;
-  overflow: hidden; text-overflow: clip;
+  word-wrap: normal;
 }
 .coverimage{
     float:left;
@@ -17,5 +17,6 @@
   display:inline;
   font-size:24px;
   width:100%;
+  word-wrap: normal;
 
 }
