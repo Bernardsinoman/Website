@@ -5,3 +5,27 @@
   display:inline-block;
   margin: 20px 20px 20px 60px;
 }
+
+.bigdiv{
+  width:100%
+  display:flex
+  justify-content:space-around;
+}
+.shopitem{
+  display:flex;
+  justify-content:center;
+}
+.shopimage{
+  width:200px;
+  height:300px;
+}
+.shoptext{
+  font-family:arial;
+  color:#4C591E;
+  display:inline-block;
+}
+.addtocart{
+  color:#4C591E;
+  background-color:#66ADD9;
+  border: solid 2px #608da8;
+}
