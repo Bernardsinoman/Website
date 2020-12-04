@@ -54,3 +54,14 @@ p{
   float:right;
   margin:35px;
 }
+.cartcount{
+    position: -webkit-sticky;
+    position:sticky;
+    float:right;
+    margin:35px;
+    font-family:arial;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    background-color:#99A63C;
+}
