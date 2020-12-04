@@ -1,0 +1,36 @@
+
+
+.bannerdiv{
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	
+}
+
+.bannerimg{
+	width:80%;
+	flex-basis:auto;
+	border: solid 5px #99A63C;
+	border-radius:5px 5px 0 0;
+}
+
+.bannertext{
+	text-align:center;
+	font-family:Monaco;
+	color: white;
+	margin:0px 0 5px 0;
+	
+}
+
+.bannertextbox{
+	width:80%;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:start;
+	background-color:#99A63C;
+	border:solid 5px #99A63C;
+	border-radius:0 0 5px 5px;
+	
+}
