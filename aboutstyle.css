@@ -2,13 +2,17 @@
   
   }
 .coverimage{
-  float:left;
+    float:left;
     height:300px;
     width:200px;
+    margin: 0 0 0 20px;
+    border: solid 2px #99A63C;
+    border-radius:10px;
 }
 .text{
   font-family:arial;
   color:#4C591E;
   display:inline;
   font-size:24px;
+  margin: 10px 20px 0 15px;
 }
