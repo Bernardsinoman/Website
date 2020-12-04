@@ -56,9 +56,10 @@
 	var cartItems =new Array(0);
 	
 	function peanuts(){
-		var peanut = parseFloat(peanutAmount);
+		var peanut = parseFloat(peanutAmount.value);
+		console.log(peanut);
 		console.log("peanut");
-		if (peanut > 0){
+		if (peanut !== 0){
 			cartItems.push(peanut);
 			console.log(peanut);
 			sum();
@@ -67,7 +68,6 @@
 	}
 	function sum() {
 		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
-		console.log(cartItems);
 		console.log(cartTotal);
 		document.getElementById("cartNumber").innerHTML = cartTotal;
 	}
