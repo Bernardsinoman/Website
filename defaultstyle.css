@@ -100,3 +100,10 @@ body {
 	display:block;
 	
 }
+.title {
+  font-size:45px;
+  color:#4C591E;
+  font-family:georgia;
+  display:inline-block;
+  margin: 20px 20px 20px 60px;
+}
