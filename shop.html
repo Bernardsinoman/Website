@@ -26,7 +26,7 @@
 <div>					 					 				 
  	<h1 class="title">Store</h1>
 	<div class="cart">  
-			 <button id="cartPic" onmouseover="swapCart()" class="bd"><img src="cartlogo.png" class="cartpic"></button>
+			 <button id="cartPic" class="bd"><img src="cartlogo.png" class="cartpic"></button>
 		<p class="cartcount" id="cartNumber"></p>
 	</div>
 </div>						    
@@ -56,15 +56,26 @@
 	</div>	
 </div>
 <div class="checkoutdiv">
-	<button class="checkoutbutton">Check Out</button>
+	<button class="checkoutbutton" onclick="checkout">Check Out</button>
 
 </div>
+<div class="checkoutscreen" id="checkout" >
+	<h1>Uh oh... There was a problem<h1>
+	<p>It turns out thatt we don't actually sell any items.<br>Check back later for some new stuff!</p>
+	<button class="checkoutbutton" onclick="checkoutclose()">okay</button>
+</div>
+				      
+				      
+				      
+				      
 <script>					     
 	var cartItems =new Array(0);
 	var peanutItems= new Array(0);
 	var showNumber = document.getElementById("cartNumber");
-	
-	showNumber.style.display = "none";					
+	var checkout = document.gettElementById("checkout");
+							     
+	showNumber.style.display = "none";
+	checkout.style.display = "none";				 
 			
 	function peanuts(){
 		var peanut = parseFloat(peanutAmount.value);
@@ -88,6 +99,14 @@
 		console.log(peanutTotal);
 		
 	}
+						  
+	function checkout(){
+		showNumber.style.display = "flex";
+	}
+	function checkoutclose(){
+		showNumber.style.display = "none";
+	}
+						 
 </script>								    
 </body>
 </html>
