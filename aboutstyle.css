@@ -12,7 +12,7 @@
 .text{
   font-family:arial;
   color:#4C591E;
-  display:inline;
+  display:inline-block;
   font-size:24px;
   width:100%;
 
