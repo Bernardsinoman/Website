@@ -13,6 +13,7 @@
 	flex-basis:auto;
 	border: solid 5px #99A63C;
 	border-radius:5px 5px 0 0;
+	-webkit-animation: fadeIn 1s;
 }
 
 .bannertext{
