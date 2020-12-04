@@ -73,4 +73,25 @@ p{
 }
 /* Button Disable */
 .bd{
+  background:none;
+  border:none;
+}
+.bd:active {
+   	 outline:none;
+	border: none;
+  background:none;
+}
+.bd:focus {
+   	 outline:none;
+	border: none;
+  background:none;
+}
+.bd:hover{
+  outline:none;
+	border: none;
+  background:none;
+  cursor: grab;
+}
+
+
   
