@@ -54,7 +54,12 @@
 </div>
 <script>					     
 	var cartItems =new Array(0);
-	var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+	function sum() {
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		console.log(cartItems);
+		console.log(cartTotal);
+		document.getElementById("cartNumber").innerHTML = cartTotal;
+	}
 	function peanuts(){
 		console.log("peanut");
 		if (peanutAmount.value > 0){
@@ -65,11 +70,7 @@
 		}
 		
 	}
-	function sum() {
-		console.log(cartItems);
-		console.log(cartTotal);
-		document.getElementById("cartNumber").innerHTML = cartTotal;
-	}
+	
 		
 	
 </script>								    
