@@ -1,3 +1,8 @@
 .textcontainer{
   
   }
+.coverimage{
+  float:left
+    height:300px;
+    width:200px;
+}
