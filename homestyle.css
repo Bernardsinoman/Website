@@ -34,3 +34,28 @@
 	border-radius:0 0 5px 5px;
 	
 }
+
+/*useless test code*/
+.it {
+	height: 50px;
+	border-radius: 1px;
+	margin:5px;
+	color: #99A63C;
+	font-size:40px;
+	font-family: MV Boli;
+	display:inline;
+	position: relative;
+	border: 1px black;
+	flex:2 2 auto;
+	text-align: center;
+}
+
+.top {
+	height:50px;
+	border: none;
+	background-color: #66ADD9;
+	border-radius: 0;
+	width:100%;
+	display:flex;
+	justify-content:end;
+}
