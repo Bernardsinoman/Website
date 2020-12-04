@@ -24,4 +24,5 @@
 .box{
   margin: 20px 60px 20px 60px;
   width:100%;
+  overflow-x: hidden;
 }
