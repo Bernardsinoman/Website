@@ -43,7 +43,7 @@
   border: solid 2px #608da8;
   border-radius: 3px;
 }
-p{
+.ps{
  display:inline;
 	text-align:center;
 }
@@ -143,4 +143,8 @@ p{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+}
+.pc{
+	display:inline-block;
+	text-align:center;
 }
