@@ -95,18 +95,29 @@ p{
 	filter: drop-shadow(10px 16px 15px red) invert(75%);
 }
 .checkoutdiv{
-	width:100%
+	width:100%;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin: 10px 0 0 20px;
+	margin: 10px 0 20px 0;
 }
 .checkoutbutton{
   color:#4C591E;
   background-color:#99A63C;
   border: solid 2px #66ADD9;
   border-radius: 3px;
-	font-size:20px;
+  font-size:20px;
 }
-
-  
+.checkoutbutton:active {
+   	 outline:none;
+	border: none;
+  background:none;
+}
+.checkoutbutton:focus {
+   	 outline:none;
+	border: none;
+  background:none;
+}
+.checkoutbutton:hover{ 
+	cursor: grab;
+}
