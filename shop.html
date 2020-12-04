@@ -57,14 +57,14 @@
 	function peanuts(){
 		console.log("peanut");
 		if (peanutAmount.value > 0){
-			console.log(peanutAmount.value);
-			cartItems.push(peanutAmount.value);
-			var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+			var pn = peanutAmount.value
+			cartItems.push(pn);
+			console.log(pn);
 			sum();
 		}
 	}
 	function sum() {		    
-		
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
 		console.log(cartTotal);
 		document.getElementById("cartNumber").innerHTML = cartTotal;
 		}
