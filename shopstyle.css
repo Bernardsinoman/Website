@@ -46,7 +46,8 @@ p{
 }
 .cartpic{
   width:75px;
-  flex-basis: auto;
+  heihgt:75;
   position:sticky;
   float:right;
-    
+  left:80%;
+}
