@@ -78,6 +78,30 @@
 				
 		 </div>				 
 	</div>
+	<div class="shopitem">
+		<img class="shopimage" src="BFF.jpg">
+		<h4 class="shoptext">Bungers</h4>
+		<p class=price>$1.00</p>
+		<div>
+			<p class="ps"> qty.</p>
+			<select id="bungerAmount">
+				<option value ="0">0</option>
+				<option value ="1">1</option>
+				<option value ="2">2</option>
+				<option value ="3">3</option>
+				<option value ="4">4</option>
+				<option value ="5">5</option>
+				<option value ="6">6</option>
+				<option value ="7">7</option>
+				<option value ="8">8</option>
+				<option value ="9">9</option>
+				<option value ="10">10</option>
+			</select>
+			<button class="addtocart" onclick="bungers()">Add to Cart</button>
+				
+		 </div>				 
+	</div>
+
 
 </div>
 <div class="checkoutdiv">
@@ -157,6 +181,30 @@
 		
 	}
 
+	var bungerItems= new Array(0);
+
+	function bungers(){
+		var bunger = parseFloat(bungerAmount.value);
+		if (bunger !== 0){
+			cartItems.push(bunger);
+			bungerItems.push(bunger);
+			cartSum();
+			bungerSum();
+					    
+		}
+		
+	}
+	function cartSum() {
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		document.getElementById("cartNumber").innerHTML = cartTotal;
+		showNumber.style.display = "block";
+	}
+	
+	function bungerSum(){
+		var bungerTotal = bungerItems.reduce((a, b) => a + b, 0);
+		console.log(bungerTotal + " bungers in cart");
+		
+	}
 </script>								    
 </body>
 </html>
