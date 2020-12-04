@@ -31,6 +31,10 @@
   color:#4C591E;
   display:inline-block;
 }
+.price{
+  font-family:arial;
+  color: black;
+}
 .addtocart{
   color:#4C591E;
   background-color:#66ADD9;
@@ -40,4 +44,9 @@
 p{
   display:inline;
 }
-  
+.cartpic{
+  width:75px
+  flex-basis: auto;
+  position:sticky;
+  float:right;
+    
