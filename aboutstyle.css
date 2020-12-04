@@ -20,3 +20,6 @@
   word-wrap: normal;
 
 }
+body{
+  overflow-x:hidden;
+}
