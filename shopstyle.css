@@ -49,7 +49,7 @@ p{
 .cartpic{
   width:50px;
   height:50px;
-  padding: 7px 0 0 7px;
+  padding: 7px 0 0 10px;
 }
 .cartcount{
     position:absolute;
@@ -58,7 +58,7 @@ p{
     margin:0;
     font-family:arial;
     color:white;
-    padding:10px;
+    padding:5px;
     border-radius:40px;
     background-color:#99A63C;
   
