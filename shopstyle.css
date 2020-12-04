@@ -129,6 +129,7 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	z-index:10;
 }
 .checkoutscreen{
 	opacity: 1 !important;
@@ -142,6 +143,7 @@
   	background-color:white;
  	border-radius:10px;
   	border:solid 2px #99A63C;
+	z-index:11;
 	
 }
 
