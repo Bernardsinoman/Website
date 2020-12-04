@@ -92,7 +92,7 @@ p{
   background:none;
   cursor: grab;
 	filter: brightness(1.2);
-	filter: drop-shadow(16px 16px 20px red) invert(75%);
+	filter: drop-shadow(10px 16px 15px red) invert(75%);
 }
 
 
