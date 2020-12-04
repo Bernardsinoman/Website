@@ -32,5 +32,7 @@
   border: solid 2px #608da8;
   border-radius: 3px;
 }
-
+p{
+  display:inline;
+}
   
