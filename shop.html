@@ -26,7 +26,7 @@
 					 					 				 
  <h1 class="title">Store</h1>
 <img src="cartlogo.png" class="cartpic">
-<p class="cartpic" id="cartNumber">10</p>
+<p class="cartpic" id="cartNumber"></p>
 <div class="bigdiv">
 	<div class="shopitem">
 		<img class="shopimage" src="BFF.jpg">
@@ -58,8 +58,15 @@
 		console.log("peanut");
 		if (peanutAmount.value > 0){
 			console.log(peanutAmount.value);
+			cartItems.push(peanutAmount.value);
+			sum();
 		}
 	}
+	function sum {		    
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		document.getElementById(cartNumber).innerHTML = cartTottal;
+}
+	
 </script>								    
 </body>
 </html>
