@@ -44,7 +44,8 @@
   border-radius: 3px;
 }
 p{
-
+ display:inline;
+	text-align:center;
 }
 .cartpic{
   width:50px;
