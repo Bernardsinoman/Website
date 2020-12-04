@@ -62,10 +62,11 @@
 	
 	showNumber.style.display = "none";
 	
+	
 	var cartImages = new Array("/cartlogo.png","/cartlogohover.png")
-	function swapCart(){
-		document.getElementById("cartPic").src = cartImages[1];	
-	 }
+	var cartMouse = document.getElementById("cartPic")
+					 
+	cartMouse.onmouseover = function(){document.getElementById("cartPic").src = cartImages[1]};
 						
 			
 	function peanuts(){
