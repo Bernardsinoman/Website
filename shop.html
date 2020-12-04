@@ -54,7 +54,31 @@
 			<button class="addtocart" onclick="peanuts()">Add to Cart</button>
 				
 		 </div>				 
-	</div>	
+	</div>
+	<div class="shopitem">
+		<img class="shopimage" src="BFF.jpg">
+		<h4 class="shoptext">Cucumbers</h4>
+		<p class=price>$1.00</p>
+		<div>
+			<p class="ps"> qty.</p>
+			<select id="cucumberAmount">
+				<option value ="0">0</option>
+				<option value ="1">1</option>
+				<option value ="2">2</option>
+				<option value ="3">3</option>
+				<option value ="4">4</option>
+				<option value ="5">5</option>
+				<option value ="6">6</option>
+				<option value ="7">7</option>
+				<option value ="8">8</option>
+				<option value ="9">9</option>
+				<option value ="10">10</option>
+			</select>
+			<button class="addtocart" onclick="cucumbers()">Add to Cart</button>
+				
+		 </div>				 
+	</div>
+
 </div>
 <div class="checkoutdiv">
 	<button class="checkoutbutton" onclick="checkoutopen()">Check Out</button>
@@ -106,7 +130,33 @@
 	function checkoutclose(){
 		checkout.style.display = "none";
 	}
-						 
+	
+					       
+	var cucumberItems= new Array(0);
+
+	function cucumbers(){
+		var cucumber = parseFloat(cucumberAmount.value);
+		if (cucumber !== 0){
+			cartItems.push(cucumber);
+			cucumberItems.push(cucumber);
+			cartSum();
+			cucumberSum();
+					    
+		}
+		
+	}
+	function cartSum() {
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		document.getElementById("cartNumber").innerHTML = cartTotal;
+		showNumber.style.display = "block";
+	}
+	
+	function cucumberSum(){
+		var cucumberTotal = cucumberItems.reduce((a, b) => a + b, 0);
+		console.log(cucumberTotal + " cucumbers in cart");
+		
+	}
+
 </script>								    
 </body>
 </html>
