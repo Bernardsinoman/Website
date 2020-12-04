@@ -62,9 +62,10 @@ p{
     margin:35px 0 0 0;
     font-family:arial;
     color:white;
-    right:95%;
-    padding:10px 13.889px 10px 13.889px;
-    border-radius:20px;
+    left:95%;
+    bottom:5px;
+    padding:10px;
+    border-radius:40px;
     background-color:#99A63C;
   
 }
