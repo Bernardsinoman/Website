@@ -110,13 +110,11 @@ p{
 }
 .checkoutbutton:active {
    	 outline:none;
-	border: none;
-  background:none;
+	
 }
 .checkoutbutton:focus {
    	 outline:none;
-	border: none;
-  background:none;
+	
 }
 .checkoutbutton:hover{ 
 	cursor: grab;
