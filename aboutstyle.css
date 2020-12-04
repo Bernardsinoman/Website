@@ -17,5 +17,10 @@
   display:inline;
   font-size:24px;
   word-wrap: normal;
-    white-space:pre-wrap;
+    
+}
+.shid{
+  float:right;
+  width:60px;
+  height:100%;
 }
