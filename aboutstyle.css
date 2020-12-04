@@ -6,3 +6,9 @@
     height:300px;
     width:200px;
 }
+.text{
+  font-family:arial;
+  color:#4C591E;
+  display:inline;
+  font-size:24px;
+}
