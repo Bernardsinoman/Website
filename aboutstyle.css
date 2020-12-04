@@ -14,12 +14,9 @@
 .text{
   font-family:arial;
   color:#4C591E;
-  display:block;
+  display:inline-block;
   font-size:24px;
   width:100%;
   word-wrap: normal;
 
-}
-body{
-  overflow-x:hidden;
 }
