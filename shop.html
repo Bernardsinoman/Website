@@ -117,14 +117,30 @@
 </div> 				      				      
 				    				      
 <script>					     
-	var cartItems =new Array(0);
-	var peanutItems= new Array(0);
 	var showNumber = document.getElementById("cartNumber");
 	var checkout = document.getElementById("checkout");
 							     
 	showNumber.style.display = "none";
 	checkout.style.display = "none";				 
-			
+				       
+						  
+	function checkoutopen(){
+		checkout.style.display = '';
+	}
+	function checkoutclose(){
+		checkout.style.display = "none";
+	}
+	
+					       
+	var cartItems =new Array(0);				       
+	function cartSum() {
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		document.getElementById("cartNumber").innerHTML = cartTotal;
+		showNumber.style.display = "block";
+	}
+	
+	
+	var peanutItems= new Array(0);			       
 	function peanuts(){
 		var peanut = parseFloat(peanutAmount.value);
 		if (peanut !== 0){
@@ -136,25 +152,13 @@
 		}
 		
 	}
-	function cartSum() {
-		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
-		document.getElementById("cartNumber").innerHTML = cartTotal;
-		showNumber.style.display = "block";
-	}
+	
 	
 	function peanutSum(){
 		var peanutTotal = peanutItems.reduce((a, b) => a + b, 0);
 		console.log(peanutTotal + " peanuts in cart");
 		
-	}
-						  
-	function checkoutopen(){
-		checkout.style.display = '';
-	}
-	function checkoutclose(){
-		checkout.style.display = "none";
-	}
-	
+	}				       
 					       
 	var cucumberItems= new Array(0);
 
