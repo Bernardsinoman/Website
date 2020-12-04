@@ -63,7 +63,10 @@
 		}
 	}
 	function sum() {		    
-		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		add = function(cartItems) {
+   		 return cartItems.reduce((a, b) => a + b, 0);
+			};
+				    var cartTotal = cartItems
 		console.log(cartTotal);
 		document.getElementById(cartNumber).innerHTML = cartTotal;
 }
