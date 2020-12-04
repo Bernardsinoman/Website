@@ -54,23 +54,22 @@
 </div>
 <script>					     
 	var cartItems =new Array(0);
+	
+	function peanuts(){
+		console.log("peanut");
+		if (peanutAmount > 0){
+			cartItems.push(peanutAmount);
+			console.log(peanutAmount);
+			sum();
+		}
+		
+	}
 	function sum() {
 		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
 		console.log(cartItems);
 		console.log(cartTotal);
 		document.getElementById("cartNumber").innerHTML = cartTotal;
 	}
-	function peanuts(){
-		console.log("peanut");
-		if (peanutAmount.value > 0){
-			var pn = peanutAmount.value
-			cartItems.push(pn);
-			console.log(pn);
-			sum();
-		}
-		
-	}
-	
 		
 	
 </script>								    
