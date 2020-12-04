@@ -49,6 +49,7 @@ p{
 .cartpic{
   width:50px;
   height:50px;
+  padding: 7px 0 0 7px;
 }
 .cartcount{
     position:absolute;
@@ -69,5 +70,4 @@ p{
   float:right;
   margin:35px 35px 35px 0;
   display:flex;
-  padding: 15px 0 0 15px;
 }
