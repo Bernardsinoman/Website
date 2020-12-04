@@ -45,10 +45,10 @@ p{
   display:inline;
 }
 .cartpic{
-  width:75px;
-  heihgt:75;
+  width:50px;
+  heihgt:50px;
   position:sticky;
   float:right;
   left:80%;
-  margin:20px;
+  margin:35px;
 }
