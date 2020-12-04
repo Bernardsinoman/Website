@@ -1,6 +1,3 @@
-body{
-  overflow:hidden;
-  }
 .coverimage{
     float:left;
     height:300px;
@@ -15,14 +12,10 @@ body{
   display:inline;
   font-size:24px;
   width:100%;
-  text-align: justify;
-  overflow: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 
 }
 .box{
+  display:flex;
   margin: 20px 60px 20px 60px;
   width:100%;
-  overflow-x: hidden;
 }
