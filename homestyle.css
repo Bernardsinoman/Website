@@ -70,10 +70,17 @@
   padding: 15px;
   display:flex;
   flex-direction:column;
-  justify-content:center;
   align-items:center;
   background-color:#4C591E;
-  border:solid 2px #99A63C;
+	width:33%;
+}
+.infoitemcenter{
+  padding: 15px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#99A63C;
+	width:33%;
 }
 .infoimage{
   width:300px;
