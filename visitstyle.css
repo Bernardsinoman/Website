@@ -6,6 +6,7 @@
   align-items:center;
 }
 .map{
+  align-self:center;
   display:flex;
   justify-content:center;
   align-items:center;
