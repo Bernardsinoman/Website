@@ -101,7 +101,30 @@
 				
 		 </div>				 
 	</div>
-	
+	<div class="shopitem">
+		<img class="shopimage" src="lpfc.png”>
+		<h4 class="shoptext">Lime Play FC</h4>
+		<p class=price>$2,000,000</p>
+		<div>
+			<p class="ps"> qty.</p>
+			<select id="lpfcAmount">
+				<option value ="0">0</option>
+				<option value ="1">1</option>
+				<option value ="2">2</option>
+				<option value ="3">3</option>
+				<option value ="4">4</option>
+				<option value ="5">5</option>
+				<option value ="6">6</option>
+				<option value ="7">7</option>
+				<option value ="8">8</option>
+				<option value ="9">9</option>
+				<option value ="10">10</option>
+			</select>
+			<button class="addtocart" onclick="lpfcs()">Add to Cart</button>
+				
+		 </div>				 
+	</div>
+
 							     
 </div>
 	
@@ -228,6 +251,30 @@
 	}
 							    
 //limeplayfc
+var lpfcItems= new Array(0);
+
+	function lpfcs(){
+		var lpfc = parseFloat(lpfcAmount.value);
+		if (lpfc !== 0){
+			cartItems.push(lpfc);
+			lpfcItems.push(lpfc);
+			cartSum();
+			lpfcSum();
+					    
+		}
+		
+	}
+	function cartSum() {
+		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
+		document.getElementById("cartNumber").innerHTML = cartTotal;
+		showNumber.style.display = "block";
+	}
+	
+	function lpfcSum(){
+		var lpfcTotal = lpfcItems.reduce((a, b) => a + b, 0);
+		console.log(lpfcTotal + " lpfcs in cart");
+		
+	}
 
 
 </script>								    
