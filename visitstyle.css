@@ -22,8 +22,9 @@
   border radius:10px;
 }
 .image{
-  width:50%;
+  display:inliine-block;
+  width:200px
   flex-basis:auto;
-  border:solid 2px #99A63C;
+  border:solid 4px #99A63C;
   border radius:10px;
 }
