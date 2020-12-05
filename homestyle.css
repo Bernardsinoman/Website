@@ -63,7 +63,7 @@
 .infodiv{
 	width:100%;
 	display:flex;
-	justify-contentt: space-around;
+	justify-content: space-around;
 	background-color:#4C591E;
 }
 .infoitem{
