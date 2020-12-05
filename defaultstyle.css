@@ -108,3 +108,29 @@ body {
   display:inline-block;
   margin: 20px 20px 20px 60px;
 }
+
+.footer{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	position:absolute;
+	botttom:0;
+	right:0;
+	width:100%;
+	background:#66ADD9;
+}
+.footeritem{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.footerlogo{
+	width:100px;
+	height:100px;
+}
+.footertext{
+	color:white;
+	font-family::arial;
+	text-align:center;
+}
