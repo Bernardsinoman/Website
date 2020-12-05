@@ -111,10 +111,10 @@ body {
 
 .footer{
 	display:flex;
-	flex-direction:column;
+	flex-direction: column;
 	justify-content:space-around;
 	align-items:center;
-	position:fixed;
+	position:absolute;
 	botttom:0;
 	right:0;
 	width:100%;
