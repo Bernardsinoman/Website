@@ -6,6 +6,10 @@
   align-items:center;
 }
 .map{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:2px #99A63C;
   border:solid 2px #99A63C;
   border radius:10px;
 }
