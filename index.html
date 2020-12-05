@@ -112,7 +112,10 @@
 	
 	function register() {
 		var name = document.getElementById("nameInput").value;
-		if (name !== "") {
+		if (name === Jarmo){
+			window.location.replace('https://bernardsinomanfamilyfarm.com/step1');
+		}
+		else if (name !== "") {
 		document.getElementById("hello").innerHTML = "hello " + name;
 		}
 	}
