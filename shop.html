@@ -101,29 +101,7 @@
 				
 		 </div>				 
 	</div>
-	<div class="shopitem">
-		<img class="shopimage" src="lpfc.png">
-		<h4 class="shoptext">Lime Play FCs</h4>
-		<p class=price>$1.00</p>
-		<div>
-			<p class="ps"> qty.</p>
-			<select id="Lime Play FCAmount">
-				<option value ="0">0</option>
-				<option value ="1">1</option>
-				<option value ="2">2</option>
-				<option value ="3">3</option>
-				<option value ="4">4</option>
-				<option value ="5">5</option>
-				<option value ="6">6</option>
-				<option value ="7">7</option>
-				<option value ="8">8</option>
-				<option value ="9">9</option>
-				<option value ="10">10</option>
-			</select>
-			<button class="addtocart" onclick="Lime Play FCs()">Add to Cart</button>
-				
-		 </div>				 
-	</div>
+	
 							     
 </div>
 	
@@ -250,30 +228,7 @@
 	}
 							    
 //limeplayfc
-var Lime Play FCItems= new Array(0);
 
-	function Lime Play FCs(){
-		var Lime Play FC = parseFloat(Lime Play FCAmount.value);
-		if (Lime Play FC !== 0){
-			cartItems.push(Lime Play FC);
-			Lime Play FCItems.push(Lime Play FC);
-			cartSum();
-			Lime Play FCSum();
-					    
-		}
-		
-	}
-	function cartSum() {
-		var cartTotal = cartItems.reduce((a, b) => a + b, 0);
-		document.getElementById("cartNumber").innerHTML = cartTotal;
-		showNumber.style.display = "block";
-	}
-	
-	function Lime Play FCSum(){
-		var Lime Play FCTotal = Lime Play FCItems.reduce((a, b) => a + b, 0);
-		console.log(Lime Play FCTotal + " Lime Play FCs in cart");
-		
-	}
 
 </script>								    
 </body>
