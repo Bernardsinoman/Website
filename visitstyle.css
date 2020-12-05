@@ -24,4 +24,6 @@
 .image{
   width:50%;
   flex-basis:auto;
+  border:solid 2px #99A63C;
+  border radius:10px;
 }
