@@ -129,9 +129,28 @@ body {
 	width:40px;
 	height:40px;
 	margin:10px;
+	filter: brightness(1.1);
+	
 }
 .footertext{
 	color:white;
 	font-family:arial;
 	text-align:center;
+}
+.footerbutton{
+	outline:none;
+	border: none;
+}
+
+.footerbutton:hover{
+	filter: brightness(1.5);
+	cursor: grab;
+}
+.footerbutton:active {
+   	 outline:none;
+	border: none;
+}
+.footerbutton:focus {
+   	 outline:none;
+	border: none;
 }
