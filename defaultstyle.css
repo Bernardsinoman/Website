@@ -161,5 +161,6 @@ body {
 	background:none;
 }
 .fc{
+	position: relative;
 	min-height: 100vh;
 }
