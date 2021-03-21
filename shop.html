@@ -107,6 +107,29 @@
 		<p class=price>$2,000,000</p>
 		<div>
 			<p class="ps"> qty.</p>
+			<select id="ochAmount">
+				<option value ="0">0</option>
+				<option value ="1">1</option>
+				<option value ="2">2</option>
+				<option value ="3">3</option>
+				<option value ="4">4</option>
+				<option value ="5">5</option>
+				<option value ="6">6</option>
+				<option value ="7">7</option>
+				<option value ="8">8</option>
+				<option value ="9">9</option>
+				<option value ="10">10</option>
+			</select>
+			<button class="addtocart" onclick="och()">Add to Cart</button>
+				
+		 </div>				 
+	</div>
+	<div class="shopitem">
+		<img class="shopimage" src="peanuts.jpg">
+		<h4 class="shoptext">Lime Play FC</h4>
+		<p class=price>$1.00</p>
+		<div>
+			<p class="ps"> qty.</p>
 			<select id="lpfcAmount">
 				<option value ="0">0</option>
 				<option value ="1">1</option>
@@ -124,7 +147,9 @@
 				
 		 </div>				 
 	</div>
-
+	
+	
+	
 							     
 </div>
 	
@@ -275,6 +300,26 @@ var lpfcItems= new Array(0);
 		console.log(lpfcTotal + " lpfcs in cart");
 		
 	}
+//Ocharleys	
+	var ochItems= new Array(0);			       
+	function och(){
+		var ochar = parseFloat(peanutAmount.value);
+		if (ochar !== 0){
+			cartItems.push(ochar);
+			peanutItems.push(ochar);
+			cartSum();
+			ochSum();
+					    
+		}
+		
+	}
+	
+	
+	function ochSum(){
+		var peanutTotal = ocharItems.reduce((a, b) => a + b, 0);
+		console.log(peanutTotal + " Ocharleys in cart");
+		
+	}				       
 
 
 </script>								    
